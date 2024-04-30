@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto ;
+    background-color: #FBFBFB;
+}
+.container{
+    display:flex;
+    
+}
+.sidebar{
+    width:18vw;
+    height:150vh;
+    background-color:white;
+    position:relative;
+}
+.logo
+{
+    position:absolute;
+    top:40px;
+    left:40px
+   
+}
+.home{
+    position:absolute;
+    top:100px;
+    left:40px;
+    display:flex;
+    gap:18px;
+    color:#949494;
+    
+   }
+.trending{
+    position:absolute;
+    top:140px;
+    left:40px;
+    display:flex;
+    gap:18px;
+    color:#949494
+}
+.subscriptions{
+    position:absolute;
+    top:180px;
+    left:40px;
+    display:flex;
+    gap:18px;
+    color:#949494
+}
+.subscriptions img{
+    width:20px;
+    fill:#949494;
+}
+.library-title{
+   position:absolute;
+    top:230px;
+    left:40px;
+    font-weight: bold;
+
+}
+ .history{
+    position:absolute;
+    top:280px;
+    left:40px;
+    display:flex;
+    gap:18px;
+    color:#949494
+ }
+ .watchlater{
+    position:absolute;
+    top:320px;
+    left:40px;
+    display:flex;
+    gap:18px;
+    color:#949494
+ }
+ .likedvideos{
+    position:absolute;
+    top:360px;
+    left:40px;
+    display:flex;
+    gap:18px;
+    color:#949494
+
+ }
+ .Subscriptions-title{
+    position:absolute;
+    position:absolute;
+    top:410px;
+    left:40px;
+    font-weight: bold;
+
+ }
+ .popularonyoutube{
+    
+    position:absolute;
+    top:460px;
+    left:40px;
+    display:flex;
+    gap:18px;
+    color:#949494
+
+ }
+ .music{
+    position:absolute;
+    top:500px;
+    left:40px;
+    display:flex;
+    gap:18px;
+    color:#949494
+
+ }
+ .sports{
+    position:absolute;
+    top:540px;
+    left:40px;
+    display:flex;
+    align-items: center;
+    gap:18px;
+    color:#949494;
+ }
+ .ball-icon{
+    width:20px;
+    height:20px;
+    
+ }
+ .game-icon{
+    width:20px;
+    height:20px;
+    fill:#949494;
+    
+    
+ }
+ .gaming{
+    position:absolute;
+    top: 580px;
+    left:40px;
+    display:flex;
+    align-items: center;
+    gap:18px;
+    color:#949494
+ }
+ .moreotpion-title{
+    position:absolute;
+    top: 630px;
+    left:40px;
+    font-weight: bold;
+
+ }
+ .youtubemovies{
+    position:absolute;
+    top:680px;
+    left:40px;
+    color:#949494;
+ }
+ .setting{
+    position:absolute;
+    top:720px;
+    left:40px;
+    color:#949494;
+
+ }
+ .reporthistory{
+    position:absolute;
+    top:760px;
+    left:40px;
+    color:#949494;
+
+ }
+
+ .help{
+    position:absolute;
+    top:800px;
+    left:40px;
+    color:#949494;
+ }
+.feedback{
+    position:absolute;
+    top:840px;
+    left:40px;
+    color:#949494;
+ }
+ /* ..........navigation bar.......... */
+.navbar{
+   width:990px;
+   margin:40px auto;
+  display:flex;
+  justify-content:space-between;
+ 
+
+}
+.navbar svg{
+ background-color:#F2F2F2;
+ padding:12px;
+
+
+ 
+}
+.searchbar{
+   display:flex;
+  margin-left:60px;
+ 
+}
+.navbarinput{
+   width:450px;
+   padding:10px;
+   background-color: #F2F2F2;
+  border:none;
+  border-radius:5px;
+  margin-left:-10px;
+}
+.navbarinput:focus{
+   outline:none;
+}
+.profile{
+   display:flex;
+   gap:40px;
+}
+.navbar-btn{
+   background-color:#FC261C;
+   border:none;
+   color:white;
+   border-radius:5px;
+   padding:2px;
+}
+.navbar-btn:hover{
+   cursor:pointer;
+   background-color:#d01c13;
+}
+ .profile-img{
+   width:45px;
+   height:45px;
+   border-radius:50%;
+ }
+
+ /* .............trending feed............ */
+
+.trending-stories{
+   margin-left:100px;
+   margin-top:50px;
+   
+}
+ .image1 p{
+   font-size:12px;
+ }
+ .feed-image{
+   width:50px;
+   height:50px;
+   border-radius:50%;
+   padding:3px;
+   border:1px solid #949494;
+   
+ }
+
+ 
+ .image-container{
+   display:flex;
+    gap:30px;
+ }
+ .feed-image1{
+   width:50px;
+   height:50px;
+   border-radius:50%;
+   padding:3px;
+   border:1px solid #FC261C;
+ }
+ .main-content{
+   margin-left:100px;
+}
+
+ .main-content-title{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .arrow-icon{
+   display:flex;
+   gap:10px
+ }
+ .main-content-video-container{
+   display:flex;
+   gap:10px;
+   margin-bottom: 50px;
+ }
+ .main-content-videos{
+   width:350px;
+text-wrap:wrap;
+ }
+ .video-image{
+   width:320px;
+ }
+ .add-time{
+ position: relative;
+ }
+ .timing{
+   position:absolute;
+   bottom:0;
+   right:10px;
+   color:white;
+   background-color:#0000008b;
+   padding:4px;
+   border-radius:4px;
+   font-size:12px
+ }
+ .profile-info{
+   display:flex;
+   align-items:center;
+   gap:10px
+ }
+ .profileinfo-image{
+   width: 50px;
+   height:50px;
+   border-radius:50%;
+ }
+ .subscribers-info{
+
+ }
+.subscribers{
+   display:flex;
+   gap:10px;
+}
+.subscriber-values {
+ margin:0;
+ color:#949494;
+}
+.channel-name{
+   line-height:2px;
+   
+}
+ .main-content-subtitle{
+   margin-top:50px;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
